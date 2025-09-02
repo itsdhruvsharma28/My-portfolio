@@ -18,20 +18,19 @@
 //             Glad to connect!
 //           </h4>
 //           <p className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
-//             I’m an aspiring Software Engineer eager to learn, grow, and contribute while working alongside talented professionals. 
+//             I’m an aspiring Software Engineer eager to learn, grow, and contribute while working alongside talented professionals.
 //           </p>
 //           <p className='text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed'>Always open to I am always open for discussions  @ <a href="https://www.linkedin.com/in/dhruv28/" target='_blank_'><span className='bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent'>Linkedin</span></a></p>
 //         </div>
-        
+
 //         <div className=""></div>
-        
+
 //       </div>
 //     </section>
 //   );
 // };
 
 // export default Hero;
-
 
 // import React from 'react';
 // import { motion } from 'framer-motion';
@@ -86,8 +85,6 @@
 
 // export default Hero;
 
-
-
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
@@ -119,18 +116,17 @@ const Hero: React.FC = () => {
   return (
     <section className="min-h-screen flex flex-col justify-between py-20">
       {/* Top Content */}
-      <div className="max-w-7xl mx-auto">
+      <div className="mx-auto">
         <div className="mb-8">
-          <h6 className="text-gray-200 text-lg">Greetings World! My name is</h6>
+          <h6 className=" text-lg  from-blue-400 via-purple-500 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent">
+            Greetings World! My name is
+          </h6>
           <h1 className="text-5xl md:text-8xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent">
-              Dhruv Sharma
-            </span>
+            <span className="text-gray-300">Dhruv Sharma</span>
           </h1>
           <h2 className="text-4xl md:text-5xl text-gray-300 mb-6">
             {/* Building innovation through code */}
             Transforming lines of code into digital magic.
-
           </h2>
           {/* <h4 className="text-lg text-gray-400">Glad to connect!</h4> */}
           <h4 className="text-lg text-gray-400">Glad to e-meet you!</h4>
@@ -138,7 +134,8 @@ const Hero: React.FC = () => {
           <p className="text-lg text-gray-400 max-w-2xl  leading-relaxed">
             {/* I’m an aspiring Software Engineer eager to learn, grow, and
             contribute while working alongside talented professionals. */}
-            An aspiring software engineer with the ability to grow as an individual and learn in the surrounding of talented people.
+            An aspiring software engineer with the ability to grow as an
+            individual and learn in the surrounding of talented people.
           </p>
           <p className="text-lg text-gray-400 max-w-2xl  leading-relaxed">
             I am always open for discussions @{" "}
@@ -170,6 +167,6 @@ const Hero: React.FC = () => {
       )}
     </section>
   );
-};  
+};
 
 export default Hero;
